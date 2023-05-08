@@ -1,0 +1,10 @@
+.today-weather__temp {
+  display: inline-block;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.today-weather__icon {
+  display: block;
+}

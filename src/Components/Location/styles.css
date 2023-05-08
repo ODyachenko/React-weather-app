@@ -1,0 +1,30 @@
+.location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.location__city {
+  margin: 0;
+}
+.App.error .location__city {
+  color: #f55f5f;
+}
+.location__search {
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.location__search--input {
+  all: unset;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
